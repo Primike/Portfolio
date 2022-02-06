@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu } from 'semantic-ui-react'
+import { Menu, Image } from 'semantic-ui-react'
 
 const Navbar = () => {
 
@@ -8,9 +8,9 @@ const Navbar = () => {
   const handleItemClick = (name) => setActiveItem(name)
 
   return (
-    <Menu>
+    <Menu size='massive' stackable className = "menuitems" color={"blue"} inverted widths={4}>
         <Menu.Item header>
-            <img src = "https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fentries%2Ficons%2Foriginal%2F000%2F013%2F564%2Fdoge.jpg"/>
+            <Image circular size = "small" src = "https://outreach.engineering.asu.edu/wp-content/uploads/2021/03/180601-atomi-mn-1540_f415a90a9f0fcbddc7dfa4cc7b5a36c3.jpg"/>
         </Menu.Item>
         <Menu.Item  
             href = "/"      
