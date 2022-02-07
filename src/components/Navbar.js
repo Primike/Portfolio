@@ -26,7 +26,7 @@ const Navbar = () => {
         />
         <Menu.Item     
             href = "/projects" 
-            name ='Projectz'
+            name ='Projects'
             active = {activeItem === 'Projects'}
             onClick = {() => handleItemClick('Projecs')} 
         />
