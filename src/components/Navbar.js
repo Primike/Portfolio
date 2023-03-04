@@ -1,37 +1,32 @@
 import React, { useState } from 'react';
-import { Menu, Image } from 'semantic-ui-react'
+import "./Navbar.css"
 
-const Navbar = () => {
+function Navbar() {
 
-  const [activeItem, setActiveItem] = useState('Accordion');
+    const tabNames = ["Home", "About", "Projects"]
+    const hrefLinks = ["/", "about", "projects"]
 
-  const handleItemClick = (name) => setActiveItem(name)
 
-  return (
-    <Menu size='massive' stackable className = "menuitems" color={"blue"} inverted widths={4}>
-        <Menu.Item header>
-            <Image circular size = "small" src = "https://outreach.engineering.asu.edu/wp-content/uploads/2021/03/180601-atomi-mn-1540_f415a90a9f0fcbddc7dfa4cc7b5a36c3.jpg"/>
-        </Menu.Item>
-        <Menu.Item  
-            href = "/"      
-            name = 'Home'
-            active = {activeItem === 'Home'}
-            onClick = {() => handleItemClick('Home')}
-        />
-        <Menu.Item  
-            href = "/about"       
-            name = 'About'
-            active = {activeItem === 'About'}
-            onClick = {() => handleItemClick('About')} 
-        />
-        <Menu.Item     
-            href = "/projects" 
-            name ='Projects'
-            active = {activeItem === 'Projects'}
-            onClick = {() => handleItemClick('Projecs')} 
-        />
-      </Menu>
-  );
-};
+    let list = tabNames.map((name, i) => {
+        return (
+            <div className="col" id="navbaritems">
+                <a id="navbartext" href = {hrefLinks[i]}>{name}</a>
+            </div>
+        )
+    })
 
-export default Navbar;
+    return (
+        <nav className="container-fluid p-3k">
+            <div className='row align-items-center'>
+                <div className="col-md-6 fs-2 text-center fw-bold" id="navbartitle">Prince Avecillas 💼</div>
+                <div className="col-md-6 gx-5 p-3">
+                    <div className='row'>
+                        {list}
+                    </div>
+                </div>
+            </div>
+        </nav>
+    )
+}
+
+export default Navbar

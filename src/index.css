@@ -12,15 +12,6 @@ code {
     monospace;
 }
 
-.divs {
-  width: 100%
+#root{
+  background-color: white;
 }
-
-.mainpic {
-  width: 100%;
-}
-
-.menuitems {
-  display: flex;
-}
-
