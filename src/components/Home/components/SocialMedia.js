@@ -1,7 +1,7 @@
 function SocialMedia() {
-    let socialMediaIcons = ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram", "fab fa-youtube", "fab fa-youtube"]
-    let socialMediaNames = [" Facebook", " Twitter", " Instagram", " Crochet", " Palillos"]
-    let socialMediaLinks = ["", "", "", "https://www.youtube.com/channel/UCZmCQcXLyP5884aRjFDCYJQ/featured", "https://www.youtube.com/channel/UCrnIBFUnJ4jQGj0nAL06oZQ"]
+    let socialMediaIcons = ["fab fa-facebook-f", "fab fa-twitter", "fab fa-instagram"]
+    let socialMediaNames = [" Facebook", " Twitter", " Instagram"]
+    let socialMediaLinks = ["", "", "",]
 
     let socialMedia = socialMediaIcons.map((icon, index) => {
         return (
@@ -16,7 +16,7 @@ function SocialMedia() {
     return (
         <div className='container-fluid text-center p-5 bg-info-subtle' id="social-media">
             <div className="row text-center p-5">
-                <h1>Redes Sociales</h1>
+                <h1>Social Media</h1>
             </div>
             <div className="btn-group gap-2 p-5">
                 {socialMedia}
