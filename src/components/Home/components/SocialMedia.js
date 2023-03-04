@@ -14,7 +14,7 @@ function SocialMedia() {
     })
 
     return (
-        <div className='container-fluid text-center p-5' id="social-media">
+        <div className='container-fluid text-center p-5 bg-info-subtle' id="social-media">
             <div className="row text-center p-5">
                 <h1>Redes Sociales</h1>
             </div>

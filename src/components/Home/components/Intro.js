@@ -1,27 +1,27 @@
 import TypeWriter from "typewriter-effect"
-import prince from "./assets/Prince.JPG"
+import space from "./assets/space.jpg"
 
 function Intro() {
     return (
         <div className='container-fluid' id='introdiv'>
             <div className='row align-items-center gx-5'>
                 <div className='col-md-7'>
-                    <h1 className='display-4' id='hometext'>Bienvenidos🖐</h1>
-                    <h1 className='display-4' id='hometext'>Soy La</h1>
-                    <h1 className='display-4' id='hometext'>Dra. Marcia Gomezcoello</h1>
+                    <h1 className='display-4' id='hometext'>Welcome🖐</h1>
+                    <h1 className='display-4' id='hometext'>My Name Is</h1>
+                    <h1 className='display-4' id='hometext'>Prince Avecillas</h1>
                     <div className='display-6' id='hometext'>
                         <TypeWriter
                             options={{
                                 autoStart: true,
                                 loop: true,
-                                delay: 40,
-                                strings: ["Marcela!", "No Mas", "CD DVD 💿"],
+                                delay: 30,
+                                strings: ["iOS Developer", "FrontEnd Engineer", "Software Engineer", "And Other Stuff"],
                             }}
                         />
                     </div>
                 </div>
                 <div className='col-md-5 p-3'>
-                    <img className='img' id='profilepicture' src={prince}/>
+                    <img className='img' id='profilepicture' src={space}/>
                 </div>
             </div>
         </div>

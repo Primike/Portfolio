@@ -3,8 +3,8 @@ import "./Navbar.css"
 
 function Navbar() {
 
-    const tabNames = ["Home", "About", "Projects"]
-    const hrefLinks = ["/", "about", "projects"]
+    const tabNames = ["Home", "Projects"]
+    const hrefLinks = ["/", "projects"]
 
 
     let list = tabNames.map((name, i) => {
