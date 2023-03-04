@@ -9,7 +9,7 @@ function Biography() {
                 </div>
                 <div className='col-md-6'>
                     <h1 className='d' id='biotitle'>Prince Avecillas</h1>
-                    <p className='s' id='bioparagraph'>Big Chungus refers to an image of the cartoon character Bugs Bunny, usually captioned with the phrase "Big Chungus" and presented as a game for PlayStation 4 console. The word "chungus" was coined by video game journalist Jim Sterling several years before the meme became popular. Starting in July 2019, the meme regained ironic popularity on iFunny and certain parts of Reddit, particularly as a part of Reddit Moment memes.</p>
+                    <p className='s' id='bioparagraph'>Hello i'm Prince. My coding journey started in college when I worked with arduino hardware during advanced physics lab. I also took a numerical methods class which used python to iterate through math functions until a solution was found. I then joined Flatiron school and I learned React JS and Ruby on Rails. Afterwards I joined Wiley, learned swift and swiftUI and worked onsite at JP Morgan Chase as a iOS developer. I continue to learn new technologies and improve my curent skills. </p>
                 </div>
             </div>
             

@@ -16,11 +16,11 @@ function Navbar() {
     })
 
     return (
-        <nav className="container-fluid p-3k">
+        <nav className="container p-3">
             <div className='row align-items-center'>
-                <div className="col-md-6 fs-2 text-center fw-bold" id="navbartitle">Prince Avecillas 💼</div>
-                <div className="col-md-6 gx-5 p-3">
-                    <div className='row'>
+                <div className="col-md-7 fs-2 text-center fw-bold" id="navbartitle">Prince Avecillas 💼</div>
+                <div className="col-md-5">
+                    <div className='row text-center'>
                         {list}
                     </div>
                 </div>
