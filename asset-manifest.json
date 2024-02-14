@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.20c4c45c.css",
-    "main.js": "/static/js/main.a118a51f.js",
+    "main.css": "/static/css/main.f6e86494.css",
+    "main.js": "/static/js/main.e706ecfb.js",
     "static/media/Prince.JPG": "/static/media/Prince.9efe64c1fe15c84a3bfb.JPG",
     "static/media/space.jpg": "/static/media/space.394ba315b3a983753fe9.jpg",
+    "static/media/drchungus.png": "/static/media/drchungus.ec30253c2f1d5371926d.png",
+    "static/media/schoolapp.png": "/static/media/schoolapp.85185de70e56fe79f555.png",
+    "static/media/arduino.png": "/static/media/arduino.1fd5c849fbe2dd3eef25.png",
     "static/media/background.jpg": "/static/media/background.7a8721490d66f1021999.jpg",
+    "static/media/melodyweaver.png": "/static/media/melodyweaver.58dd473f3d79035647ef.png",
     "index.html": "/index.html",
-    "main.20c4c45c.css.map": "/static/css/main.20c4c45c.css.map",
-    "main.a118a51f.js.map": "/static/js/main.a118a51f.js.map"
+    "main.f6e86494.css.map": "/static/css/main.f6e86494.css.map",
+    "main.e706ecfb.js.map": "/static/js/main.e706ecfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.20c4c45c.css",
-    "static/js/main.a118a51f.js"
+    "static/css/main.f6e86494.css",
+    "static/js/main.e706ecfb.js"
   ]
 }
