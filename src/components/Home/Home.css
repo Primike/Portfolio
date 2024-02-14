@@ -1,6 +1,6 @@
 #introdiv {
-    background-color: rgb(168, 225, 233);
-    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
     text-align: center;
     background-image: url("./components/assets/background.jpg");
     background-size: cover;
@@ -30,6 +30,7 @@
   width: 50%;
   border: rgb(104, 101, 101) solid 1px;
   box-shadow: 7px 7px #414141;
+  margin-bottom: 20px;
 }
 
 #biotitle {

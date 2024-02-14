@@ -1,12 +1,17 @@
 import Project from "./components/Project"
+import projects from "./data/ProjectData"
+import "./Projects.css"
 
 function Projects() {
-
     return (
-        <>
-            <h1>Projects</h1>
-            <Project/>
-        </>
+        <div className="projects-div">
+            <h1 className="projects-title">iOS/FullStack Projects</h1>
+            <div className="project-collection">
+                {projects.map ((project)=> {
+                    return <Project project={project} />
+                })}
+            </div>
+        </div>
     )
 }
 

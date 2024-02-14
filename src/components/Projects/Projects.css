@@ -1,0 +1,105 @@
+.projects-title {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #202020;
+    width: 100%;
+    padding: 40px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-image {
+    width: 100%; /* Ensures the image takes the full width of the card */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* This will ensure the image covers the area without stretching */
+    border-radius: 5px;
+}
+
+.project-name {
+    color: #333;
+}
+
+.project-description {
+    color: #302f2f;
+    text-align: center;
+    font-size: medium;
+}
+
+.links-div {
+    display: flex;
+    justify-content: center; /* Center the links */
+    gap: 10px; /* Creates space between the links */
+}
+
+#project-link {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#project-link:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: 90%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        width: 90%; 
+    }
+}
+
+
+.projects-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+@media (max-width: 1200px) {
+    .project-collection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .project-collection {
+        grid-template-columns: 1fr;
+    }
+}

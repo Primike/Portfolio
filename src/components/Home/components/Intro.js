@@ -15,7 +15,7 @@ function Intro() {
                                 autoStart: true,
                                 loop: true,
                                 delay: 30,
-                                strings: ["iOS Developer", "FrontEnd Engineer", "Software Engineer", "And Other Stuff"],
+                                strings: ["iOS Developer", "FrontEnd Developer", "And Other Stuff", "I like getting people bonuses hint hint"],
                             }}
                         />
                     </div>
