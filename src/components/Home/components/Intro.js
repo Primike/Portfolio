@@ -21,7 +21,7 @@ function Intro() {
                     </div>
                 </div>
                 <div className='col-md-5 p-3'>
-                    <img className='img' id='profilepicture' src={space}/>
+                    <img className='img' id='profilepicture' src={space} alt="space"/>
                 </div>
             </div>
         </div>

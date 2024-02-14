@@ -5,7 +5,7 @@ function Biography() {
         <div className='container-fluid p-5' id='biodiv'>
             <div className='row align-items-center gx-5'>
                 <div className='col-md-6 p-3 text-center'>
-                    <img className="img" id='biophoto' src={prince}/>
+                    <img className="img" id='biophoto' src={prince} alt="prince"/>
                 </div>
                 <div className='col-md-6'>
                     <h1 className='d' id='biotitle'>Prince Avecillas</h1>
